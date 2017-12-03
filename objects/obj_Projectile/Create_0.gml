@@ -5,7 +5,7 @@ xScale = 1;
 yScale = 1;
 alpha = 1;
 color = c_white;
-impact = .2;
+impact = .3;
 
 death = false;
 timer = 0;

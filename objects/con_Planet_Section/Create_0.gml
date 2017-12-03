@@ -18,4 +18,15 @@ yOrig = y;
 shake_timer = 0;
 shake_time = 45;
 shake = false;
+shake_reset = false;
+
+city1 = spr_Planet_City_1;
+city1_subImage = 0;
+city2 = spr_Planet_City_2;
+city2_subImage = 0;
+city3 = spr_Planet_City_3;
+city3_subImage = 0;
+city4 = spr_Planet_City_4;
+city4_subImage = 0;
+
 

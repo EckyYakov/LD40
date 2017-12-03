@@ -1,7 +1,6 @@
 resource = 20000;
 scr = 0;
 
-
 total_bases = con_Planet_Section.sections;
 timer = 0;
 tick_time = 1;
@@ -21,6 +20,8 @@ cities_remaining = 4;
 city_distance = 35
 city_destroy = false;
 
+cause_of_death = "You ran out of resources to sustain your World!";
+
 //Create the four bases
 base1 = instance_create_depth(room_width/2 + city_distance, room_height/2 -city_distance, -1, obj_Base);
 base1.ui_time = room_speed;
@@ -37,3 +38,20 @@ alpha = 1;
 
 w = window_get_width();
 h = window_get_height();
+
+uiSprite = spr_Resource_UI;
+ui_x = room_width/2;
+ui_y = 20;
+ui_h = sprite_get_height(uiSprite);
+ui_w = sprite_get_width(uiSprite);
+ui_alpha = 1;
+
+max_rate = gain_rate;
+min_rate = (loss_rate * total_bases) - gain_rate; 
+
+cGreen = make_color_rgb(77, 236, 114); 
+cRed = make_color_rgb(236, 77, 77);
+green_spriteWidth = 0;
+red_spriteWidth = 0;
+
+sepSprite = spr_Resource_Seperator;

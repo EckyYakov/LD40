@@ -15,7 +15,7 @@ rot_speed = 1;
 
 points = 50000;
 
-hp = 1;
+hp = .5;
 
 warnIndex = spr_Warn_Speeder;
 

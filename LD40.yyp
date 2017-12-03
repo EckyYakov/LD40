@@ -87,6 +87,14 @@
             }
         },
         {
+            "Key": "14acea39-c8de-493b-a903-8cd0581cb6f0",
+            "Value": {
+                "id": "1441c3cb-07fd-4cb2-892b-8b62504ee0b5",
+                "resourcePath": "sprites\\spr_Planet_City_4\\spr_Planet_City_4.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "18f96e70-da45-4003-8f64-e036a245bfa4",
             "Value": {
                 "id": "4efc76b6-21fc-4f6a-a5a5-ddfb62b83193",
@@ -140,6 +148,14 @@
                 "id": "03d6800b-e696-419d-be97-318e43155efc",
                 "resourcePath": "objects\\obj_Base\\obj_Base.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "49422390-34a6-4f78-a4a5-2369c31cb67c",
+            "Value": {
+                "id": "21d39e86-7e25-4c44-904e-42c28096e709",
+                "resourcePath": "sprites\\spr_Planet_City_1\\spr_Planet_City_1.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -279,6 +295,14 @@
             }
         },
         {
+            "Key": "99233240-ee1a-4537-a7de-3ec70a2d55f4",
+            "Value": {
+                "id": "3f6715ab-76ae-4e87-b4a7-fb10416f7c3c",
+                "resourcePath": "objects\\obj_Planet_Base\\obj_Planet_Base.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "9a2456e2-2a4c-4c26-b30c-0896adff6570",
             "Value": {
                 "id": "3b48cf66-47b0-4458-9ccc-593a1d0f0762",
@@ -287,11 +311,27 @@
             }
         },
         {
+            "Key": "9a7e89d9-10a2-4735-8532-f758f8a1a316",
+            "Value": {
+                "id": "0a9d7f3d-77f7-449d-b0ca-849fc3868482",
+                "resourcePath": "sprites\\spr_Resource_Seperator\\spr_Resource_Seperator.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "9f782e1b-14ca-411e-a6f1-ebf70df44a74",
             "Value": {
                 "id": "4668c752-0968-4856-86fd-399e6ba610c9",
                 "resourcePath": "scripts\\fadeTransition\\fadeTransition.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "9fb2008e-971d-455b-8ae9-effaaa2acc36",
+            "Value": {
+                "id": "a3527b57-a2e9-4702-b5e4-ef447bfb2ba4",
+                "resourcePath": "sprites\\spr_Planet_Base\\spr_Planet_Base.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -340,6 +380,14 @@
                 "id": "e5546013-80bb-4ecd-bf16-a68247475a4c",
                 "resourcePath": "views\\b791b382-30ec-4aa6-a69b-4d4d0ed07dc1.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "babf8e93-1ab8-4ad3-9d25-c2d949a0d801",
+            "Value": {
+                "id": "34e36f9b-a246-471c-9dd8-2019461efc9e",
+                "resourcePath": "sprites\\spr_Resource_UI\\spr_Resource_UI.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -404,6 +452,22 @@
                 "id": "371d7e38-2ffd-49fb-b311-ff909a842b2a",
                 "resourcePath": "options\\windows\\options_windows.yy",
                 "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "cca58586-e366-4159-a4fa-375b2f7ffdf3",
+            "Value": {
+                "id": "de43455f-2eb0-402c-9409-be37a457c920",
+                "resourcePath": "sprites\\spr_Planet_City_2\\spr_Planet_City_2.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "ce9c8576-5691-4cba-829d-30dce16be508",
+            "Value": {
+                "id": "f83e6340-08d6-49f2-9b95-cdfea476cb13",
+                "resourcePath": "sprites\\spr_Planet_City_3\\spr_Planet_City_3.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

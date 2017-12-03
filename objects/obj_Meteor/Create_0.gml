@@ -1,6 +1,6 @@
 spriteIndex = sprite_index;
-//subImage = irandom_range(0, sprite_get_number(spriteIndex));
-subImage = 0;
+subImage = irandom_range(0, sprite_get_number(spriteIndex));
+//subImage = 0;
 rot = 0;
 xScale = 1;
 yScale = 1;

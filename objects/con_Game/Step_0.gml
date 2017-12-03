@@ -29,12 +29,14 @@ if(city_destroy){
 }
 
 //Check the last base to see if it is destroyed
-if(base4.destroyed) resource = 0;
+if(base4.destroyed){
+	cause_of_death = "You failed to protect your cities!"
+	resource = 0;
+}
 
 //Check to see if we have ran out of resources
 if(resource <= 0) {
 	resource = 0;
-	
 	if(!surface_exists(scrn)){
         scrn = surface_create(w, h);
         surface_copy(scrn, 0, 0, application_surface);
@@ -64,3 +66,11 @@ else{
 	//Passively Award Resources based on how many cities are left
 	resource += gain_rate;
 }
+
+//Calculate what to draw for the resource bar ui element
+resource_ratio = gain_rate - (loss_rate * active_bases);
+
+green_spriteWidth = max(0, ui_w * (resource_ratio/max_rate));
+red_spriteWidth = min(0, ui_w * (resource_ratio/min_rate));
+show_debug_message("Red: " + string(min(0, ui_w * (resource_ratio/min_rate))));
+show_debug_message("Green: " + string(max(0, ui_w * (resource_ratio/max_rate))))
