@@ -8,7 +8,7 @@ tick_time = 1;
 loss_rate = 3;
 
 score_rate = 50;
-difficulty = 3;
+difficulty = 1;
 difficulty_time = room_speed * 60;
 
 cPurple = make_color_rgb(255, 0, 255);

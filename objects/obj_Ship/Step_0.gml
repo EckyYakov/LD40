@@ -38,6 +38,7 @@ if(lifetime > room_speed * 10){
 var xp, yp;
 xp = x;
 yp = y;
+
 /*part_type_direction(pt_Projectile_Trail, rot + 170, rot + 170, 0, 0);
 part_emitter_region(global.ps, pe_Projectile_Trail, xp-1, xp+1, yp-2, yp+2, ps_shape_rectangle, ps_distr_linear);
 part_emitter_burst(global.ps, pe_Projectile_Trail, pt_Projectile_Trail, 10);
