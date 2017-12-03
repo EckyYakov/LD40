@@ -1,0 +1,1 @@
+edge_indicator = ds_queue_create();

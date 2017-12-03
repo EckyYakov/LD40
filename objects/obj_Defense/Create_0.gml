@@ -5,6 +5,9 @@ angle2 = 0;
 
 mouse_angle = 0;
 
+timer = 0;
+ui_time = room_speed * 2;
+
 spriteIndex = sprite_index;
 subImage = 0;
 rot = 0;

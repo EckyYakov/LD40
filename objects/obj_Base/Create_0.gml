@@ -10,3 +10,8 @@ destroy_timer = 0;
 destroy_time = room_speed * 1.5;
 destroy_base = false;
 destroy_sections = 4;
+destroyed = false;
+
+timer = 0;
+
+ui_time = room_speed * 5;

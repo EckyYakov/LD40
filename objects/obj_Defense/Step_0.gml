@@ -21,3 +21,13 @@ if(mouse_angle >= min(clamp360(angle1),clamp360(angle2))  && mouse_angle <= max(
 else{
 	highlight = false;
 }
+
+timer++
+if(timer % ui_time == 0){
+	//Create Resource + UI element
+	var inst = instance_create_depth(x, y - 4, -2, obj_Resource_UI);
+	inst.symb = "-";
+	inst.value = "10";
+	inst.color = make_color_rgb(255, 0, 0);
+	inst.floatSpeed = -.5;
+}
