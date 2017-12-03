@@ -4,15 +4,16 @@ scr = 0;
 
 total_bases = con_Planet_Section.sections;
 timer = 0;
-tick_time = room_speed * 3;
-loss_rate = 5;
+tick_time = 1;
+loss_rate = 3;
 
 score_rate = 50;
-difficulty = 1;
+difficulty = 3;
+difficulty_time = room_speed * 60;
 
 cPurple = make_color_rgb(255, 0, 255);
 
-gain_rate = 2;
+gain_rate = 8.75;
 
 active_bases = 0;
 

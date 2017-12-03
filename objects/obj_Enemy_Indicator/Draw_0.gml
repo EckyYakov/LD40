@@ -5,6 +5,6 @@ while !ds_queue_empty(edge_indicator) {
     _an = ds_queue_dequeue(edge_indicator);
 	_al = ds_queue_dequeue(edge_indicator);
 	_sp = ds_queue_dequeue(edge_indicator);
-    draw_sprite_ext(sprite10, 0,_x,_y, .5 * _al, .5 * _al, _an,c_white,_al);
+    draw_sprite_ext(_sp, 0,_x,_y, .5 * _al, .5 * _al, _an,c_white,_al);
 	
 }

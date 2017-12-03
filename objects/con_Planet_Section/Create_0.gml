@@ -12,3 +12,10 @@ for(var i = 0; i < sections; i++){
 	sect.image_angle = sect.rot;
 }
 
+xOrig = x;
+yOrig = y;
+
+shake_timer = 0;
+shake_time = 45;
+shake = false;
+

@@ -1,0 +1,1 @@
+///Parent class for enemies

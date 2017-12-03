@@ -1,12 +1,15 @@
 draw_set_font(fnt_Bulky_Pixel);
 draw_set_halign(fa_left);
 draw_set_color(c_lime);
-draw_text(10, 10, "Resource: " + string(resource));
+draw_text(10, 10, "Resource: " + string(round(resource)));
 draw_text(10, 30, "Active Bases: " + string(active_bases))
 draw_text(10, 50, "Cities Remaining: " + string(cities_remaining));
+draw_text(10, 80, "Instances: " + string(instance_number(all)));
+
 
 draw_set_halign(fa_right);
 draw_text(room_width - 10, 10, "Score: " + string(scr));
+draw_text(room_width - 10, 30, "Level: " + string(difficulty));
 
 if surface_exists(scrn){
 	draw_surface_ext(scrn, 0, 0, 1, 1, 0, c_white, .2);

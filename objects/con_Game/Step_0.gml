@@ -1,12 +1,12 @@
 //Passively get rid of resources based on the amount of bases active.
 timer++
-if(timer mod tick_time){
-	resource -= loss_rate * active_bases;
-}
+
+resource -= loss_rate * active_bases;
 
 //Increase difficulty every minute
-
-
+if(timer mod difficulty_time == 0){
+	if difficulty < 4 difficulty++;
+}
 
 if(city_destroy){
 	switch cities_remaining {
@@ -22,14 +22,14 @@ if(city_destroy){
 		case 1:
 			base4.destroy_base = true;
 		break;
-		case 0:
-			resource = 0;
-		break;
 	}
 	cities_remaining -= 1;
 	if cities_remaining <= 0 cities_remaining = 0;
 	city_destroy = false;
 }
+
+//Check the last base to see if it is destroyed
+if(base4.destroyed) resource = 0;
 
 //Check to see if we have ran out of resources
 if(resource <= 0) {
@@ -62,5 +62,5 @@ else{
 	scr += score_rate * difficulty;
 	
 	//Passively Award Resources based on how many cities are left
-	resource += gain_rate * cities_remaining;
+	resource += gain_rate;
 }

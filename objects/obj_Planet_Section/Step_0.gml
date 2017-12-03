@@ -1,6 +1,8 @@
 //Check for mouse collision
 mouseCollision = position_meeting(mouse_x, mouse_y, self)
 
+x = con_Planet_Section.x;
+y = con_Planet_Section.y;
 
 if(mouseCollision){
 	buttonPressed = mouse_check_button_pressed(mb_left);
@@ -78,10 +80,12 @@ if(build){
 }
 
 //Collision with enemies
-enemyCollision = place_meeting(x, y, obj_Enemy);
-var enemy = instance_place(x, y, obj_Enemy);
+enemyCollision = place_meeting(x, y, par_Enemy);
+var enemy = instance_place(x, y, par_Enemy);
 if(enemyCollision){
 	//Do an animation taking out the city.
+	con_Planet_Section.shake = true;
 	con_Game.city_destroy = true;
 	with enemy instance_destroy();
 }
+
