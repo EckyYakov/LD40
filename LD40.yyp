@@ -175,6 +175,14 @@
             }
         },
         {
+            "Key": "37de0a1d-95fe-4415-8f65-3eb53aaf54cb",
+            "Value": {
+                "id": "b8f62a7b-3109-4448-82ff-bed58a373d0a",
+                "resourcePath": "sprites\\spr_timer\\spr_timer.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "3a67e8bc-bee9-4658-b05e-48c3c4ab3469",
             "Value": {
                 "id": "5ae0a070-cb41-4869-8a1d-a60a5f55248b",
