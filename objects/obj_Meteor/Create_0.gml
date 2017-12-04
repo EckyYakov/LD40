@@ -40,3 +40,5 @@ part_type_gravity(pt_Enemy_Crash, 0, 0);
 
 //Creating Emitters
 pe_Enemy_Crash = part_emitter_create(global.ps);
+
+city_hit = false;

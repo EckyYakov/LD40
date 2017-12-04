@@ -5,5 +5,6 @@ if(enemyCollision){
 	//Do an animation taking out the city.
 	con_Planet_Section.shake = true;
 	con_Game.city_destroy = true;
+	enemy.city_hit = true;
 	with enemy instance_destroy();
 }
