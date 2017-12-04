@@ -12,7 +12,7 @@ if(play_song){
 	}
 
 	//Gather song information
-	var song = audio_play_sound(song_to_play, 1, false);
+	var song = audio_play_sound(song_to_play, 1, true);
 	//Set Options for the track
 	audio_sound_gain(song, 0, 0);
 	audio_sound_gain(song, 1, 2000);

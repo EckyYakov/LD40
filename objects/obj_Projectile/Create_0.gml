@@ -19,7 +19,7 @@ rot = p_dir;
 //Create Resource + UI element
 var inst = instance_create_depth(x, y - 4, -2, obj_Resource_UI);
 inst.symb = "-";
-inst.value = "1";
+inst.value = "$";
 inst.color = make_color_rgb(255, 0, 0);
 inst.floatSpeed = -.5;
 

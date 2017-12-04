@@ -24,7 +24,7 @@ if(!destroyed){
 		//Create Resource + UI element
 		var inst = instance_create_depth(x, y - 4, -2, obj_Resource_UI);
 		inst.symb = "+";
-		inst.value = "1500";
+		inst.value = "$$$";
 		ui_time = room_speed * 5;
 		timer = 0;
 	}

@@ -79,3 +79,4 @@ if(rDrawWidth != red_spriteWidth) rDrawWidth += sign(red_spriteWidth - rDrawWidt
 
 //Resrouce bar
 bar_ratio= resource/max_resource;
+stacks = floor(resource/1000);

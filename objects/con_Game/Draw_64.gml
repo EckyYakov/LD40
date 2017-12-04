@@ -16,7 +16,34 @@ draw_sprite_part_ext(uiSprite, 0, ui_w - abs(rDrawWidth), 0, abs(rDrawWidth), ui
 draw_sprite(sepSprite, 0, ui_x, ui_y);
 
 //Draw Resource Bar
-draw_sprite_part_ext(spr_Resource_Bar, 0, 0, 0, bar_ratio * sprite_get_width(spr_Resource_Bar), sprite_get_height(spr_Resource_Bar), ui_x - sprite_get_width(spr_Resource_Bar)/2, ui_y + 15, 1, 1, c_white, ui_alpha);
+//Start from the left, draw stacks of 5 up to 20;
+stack1_y = 0;
+stack2_y = 0;
+stack3_y = 0;
+stack4_y = 0;
+stack5_y = 0;
+for(var i = 0; i < stacks; i++){
+	if(i >= 16){
+		draw_sprite(spr_cash, 0, room_width/2 + 78, 60 + stack1_y);
+		stack1_y -= 2;
+	}
+	else if (i >= 12){
+		draw_sprite(spr_cash, 0, (room_width/2) + 38, 60 + stack2_y);
+		stack2_y -= 2;
+	}
+	else if(i >= 8){
+		draw_sprite(spr_cash, 0, (room_width/2) - 2, 60 + stack3_y);
+		stack3_y -= 2;
+	}
+	else if(i >= 4){
+		draw_sprite(spr_cash, 0, (room_width/2) - 42, 60 + stack4_y);
+		stack4_y -= 2;
+	}
+	else {
+		draw_sprite(spr_cash, 0, (room_width/2) - 82, 60 + stack5_y);
+		stack5_y -= 2;
+	}
+}
 
 
 draw_set_halign(fa_right);

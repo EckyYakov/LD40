@@ -29,6 +29,7 @@ if(mouseCollision){
 			status = 0;
 			build = false;
 			build_timer = 0;
+			if instance_exists(timer) with timer instance_destroy();
 			alpha = 1;
 			exit;
 		break;
@@ -57,26 +58,10 @@ else {
 }
 
 if(build){
-	build_timer++;
-	// To show the section is actively being built.
-	if(build_timer % (build_time/build_sections) == 0){
-		alpha = .2;
-	}
-	if(alpha < 1){
-		alpha += .01;
-	}
-	//If it has been built
-	if(build_timer > build_time){
-		status = 2;
-		build = false;
-		build_timer = 0;
-		con_Game.active_bases += 1;
-		//Create a base
-		base_inst = instance_create_depth(x + lengthdir_x(dist_to_base, rot + 67.5), y + lengthdir_y(dist_to_base, rot + 67.5), -1, obj_Defense);
-		base_inst.rot = (rot + 67.5) - 90;
-		base_inst.oRot = (rot + 67.5) - 90;
-		alpha = 1;
-	}
+	timer = instance_create_depth(x + lengthdir_x(dist_to_base, rot + 67.5), y + lengthdir_y(dist_to_base, rot + 67.5), -2, obj_Timer);
+	timer.parent_section = self;
+	timer.base_rot = rot;
+	build = false;
 }
 
 //Collision with enemies

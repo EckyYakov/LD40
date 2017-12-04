@@ -6,6 +6,8 @@ yScale = 1;
 alpha = .1;
 color = c_white;
 
+timer = noone;
+
 //Status:
 // 0 = Nothing exists, can be built;
 // 1 = Shit is being built;

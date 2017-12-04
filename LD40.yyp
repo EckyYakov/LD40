@@ -375,6 +375,14 @@
             }
         },
         {
+            "Key": "7aa74b5d-3631-40dd-85dd-9796fc1645bd",
+            "Value": {
+                "id": "3c4303d9-5b27-4a5f-bab3-0df21490e297",
+                "resourcePath": "objects\\obj_Timer\\obj_Timer.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "817ecdc7-096b-4aab-b3d6-1a3a0409f71f",
             "Value": {
                 "id": "9185da68-097d-4e67-b33d-ed7543dd00e7",
@@ -460,6 +468,14 @@
                 "id": "834117e6-2e00-4bb2-9d2a-3ab7b3c8413e",
                 "resourcePath": "sounds\\sfx_Rocket1\\sfx_Rocket1.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "9dc48959-1210-4437-9337-b1280b0b363d",
+            "Value": {
+                "id": "588bafc3-c578-46b6-bc54-403e2c095b9e",
+                "resourcePath": "fonts\\fnt_Resource_UI\\fnt_Resource_UI.yy",
+                "resourceType": "GMFont"
             }
         },
         {

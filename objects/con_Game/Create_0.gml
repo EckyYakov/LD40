@@ -9,7 +9,7 @@ tick_time = 1;
 loss_rate = 3;
 
 score_rate = 50;
-difficulty = 2;
+difficulty = 1;
 difficulty_time = room_speed * 60;
 
 cPurple = make_color_rgb(255, 0, 255);
@@ -62,3 +62,11 @@ rDrawWidth = 0;
 drawRate = 1;
 
 sepSprite = spr_Resource_Seperator;
+
+stacks = 0;
+stack1_y = 0;
+stack2_y = 0;
+stack3_y = 0;
+stack4_y = 0;
+stack5_y = 0;
+
