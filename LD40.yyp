@@ -127,11 +127,19 @@
             }
         },
         {
+<<<<<<< HEAD
             "Key": "1f07294e-106f-4418-99ac-7ab71a1d0b28",
             "Value": {
                 "id": "072d92aa-ce33-49dc-827e-559bcb534acf",
                 "resourcePath": "objects\\con_SFX\\con_SFX.yy",
                 "resourceType": "GMObject"
+=======
+            "Key": "20e6df4a-4c07-4fff-a619-cbc82241c990",
+            "Value": {
+                "id": "fba422cb-63d4-43bf-8a12-38bec595bfa1",
+                "resourcePath": "sprites\\spr_planet_3\\spr_planet_3.yy",
+                "resourceType": "GMSprite"
+>>>>>>> origin/master
             }
         },
         {
@@ -227,6 +235,14 @@
             "Value": {
                 "id": "66103e30-2b79-41a9-a560-e8a5c97d104d",
                 "resourcePath": "sprites\\spr_Resource_Bar\\spr_Resource_Bar.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "3d97d61c-896e-41b3-9dc1-8b6c69fcde7b",
+            "Value": {
+                "id": "d8a5c369-308b-4605-9322-0e1395df8820",
+                "resourcePath": "sprites\\spr_cash\\spr_cash.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -391,6 +407,14 @@
             }
         },
         {
+            "Key": "8e5fe9ea-5459-4470-8f3d-49c184b6911f",
+            "Value": {
+                "id": "07ec840e-2815-4af7-a109-ce167bfa6e5f",
+                "resourcePath": "sprites\\spr_planet_1\\spr_planet_1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "8f75addd-d8de-4b56-8d44-d58b4f34cbb6",
             "Value": {
                 "id": "09b2b51a-81f8-49a1-9748-e2541c6f5e38",
@@ -500,6 +524,14 @@
                 "id": "f2aa0b25-ea28-44a9-83e9-0650af91cfa1",
                 "resourcePath": "views\\af585718-99a4-404e-a96f-c3d0961c748c.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "b1cf7119-9df3-4df2-a679-91e1904912af",
+            "Value": {
+                "id": "7d30b36b-a906-4f92-8d4d-9c43afb1592d",
+                "resourcePath": "sprites\\spr_planet_2\\spr_planet_2.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
