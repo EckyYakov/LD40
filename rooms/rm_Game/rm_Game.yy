@@ -1,6 +1,6 @@
 
 {
-    "name": "room0",
+    "name": "rm_Game",
     "id": "c57913ec-a0d9-4d33-a050-8fb945cf8cb2",
     "creationCodeFile": "",
     "inheritCode": false,
@@ -12,7 +12,8 @@
         "206039d4-c5cb-4004-9ead-f568e9219be0",
         "5ebee848-a993-41b4-8bd7-ff0fb049e311",
         "35a3f6f1-0801-4d55-97d8-d07056efc795",
-        "38f69b9c-9437-4c9f-b861-f379819e7c32"
+        "38f69b9c-9437-4c9f-b861-f379819e7c32",
+        "09788a92-1e6c-40e3-aeaa-6941df7cbb78"
     ],
     "IsDnD": false,
     "layers": [
@@ -61,7 +62,7 @@
             "inheritSubLayers": false,
             "inheritVisibility": false,
             "instances": [
-
+                {"name": "inst_13964926","id": "09788a92-1e6c-40e3-aeaa-6941df7cbb78","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_13964926","objId": "3eaae00e-69d0-4e9a-bf57-e87317f33c50","rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 160,"y": 0}
             ],
             "layers": [
 

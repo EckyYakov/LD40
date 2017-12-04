@@ -1,4 +1,6 @@
 resource = 20000;
+max_resource = resource;
+
 scr = 0;
 
 total_bases = con_Planet_Section.sections;
@@ -49,9 +51,14 @@ ui_alpha = 1;
 max_rate = gain_rate;
 min_rate = (loss_rate * total_bases) - gain_rate; 
 
+bar_ratio = 1;
+
 cGreen = make_color_rgb(77, 236, 114); 
 cRed = make_color_rgb(236, 77, 77);
 green_spriteWidth = 0;
 red_spriteWidth = 0;
+gDrawWidth = 0;
+rDrawWidth = 0;
+drawRate = 1;
 
 sepSprite = spr_Resource_Seperator;

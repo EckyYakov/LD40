@@ -65,6 +65,7 @@ else{
 	
 	//Passively Award Resources based on how many cities are left
 	resource += gain_rate;
+	if resource >= max_resource resource = max_resource;
 }
 
 //Calculate what to draw for the resource bar ui element
@@ -72,5 +73,9 @@ resource_ratio = gain_rate - (loss_rate * active_bases);
 
 green_spriteWidth = max(0, ui_w * (resource_ratio/max_rate));
 red_spriteWidth = min(0, ui_w * (resource_ratio/min_rate));
-show_debug_message("Red: " + string(min(0, ui_w * (resource_ratio/min_rate))));
-show_debug_message("Green: " + string(max(0, ui_w * (resource_ratio/max_rate))))
+
+if(gDrawWidth != green_spriteWidth) gDrawWidth += sign(green_spriteWidth - gDrawWidth);
+if(rDrawWidth != red_spriteWidth) rDrawWidth += sign(red_spriteWidth - rDrawWidth);
+
+//Resrouce bar
+bar_ratio= resource/max_resource;
