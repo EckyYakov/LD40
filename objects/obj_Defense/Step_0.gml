@@ -16,6 +16,10 @@ if(mouse_angle >= min(clamp360(angle1),clamp360(angle2))  && mouse_angle <= max(
 		//Create a projectile towards the mouse
 		var proj = instance_create_depth(x, y, 0, obj_Projectile);
 		with proj motion_set(p_dir, spd);
+		var proj_sound = audio_play_sound(sfx_rocket2, 1, false);
+		audio_sound_set_track_position(proj_sound, .35);
+		audio_sound_gain(proj_sound, 0, 0);
+		audio_sound_gain(proj_sound, 1, 150);
 	}
 }
 else{

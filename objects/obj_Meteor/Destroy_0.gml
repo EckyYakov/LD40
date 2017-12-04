@@ -1,4 +1,6 @@
 //Adjusting Emitter positions. Starting Emitter Streams or Bursts.
+event_inherited();
+
 var xp, yp;
 xp = x;
 yp = y;

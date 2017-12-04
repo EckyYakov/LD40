@@ -43,3 +43,8 @@ pe_Enemy_Crash = part_emitter_create(global.ps);
 
 slow = false;
 slowed = false;
+
+idle_sound = audio_play_sound(sfx_Ship_Idle, 1, true);
+audio_sound_set_track_position(idle_sound, .35);
+audio_sound_gain(idle_sound, 0, 0);
+audio_sound_gain(idle_sound, 1, 150);
