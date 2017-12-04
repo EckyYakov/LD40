@@ -1,3 +1,5 @@
+event_inherited();
+
 spriteIndex = sprite_index;
 subImage = irandom_range(0, sprite_get_number(spriteIndex));
 //subImage = 0;

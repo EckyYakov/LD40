@@ -463,6 +463,14 @@
             }
         },
         {
+            "Key": "be012f21-d81f-41dd-aae8-077e156916ad",
+            "Value": {
+                "id": "af1f9624-c80a-45b3-9a92-7a75b6d39ade",
+                "resourcePath": "objects\\par_City\\par_City.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "bef4fc1e-1fb0-4b6e-aadd-897c6a957171",
             "Value": {
                 "id": "b9d052ce-7bce-4fd3-aa2d-fb8c99aa8ff0",
@@ -588,6 +596,14 @@
                 "id": "75797f88-54cc-40b4-b566-e75846ed8bd8",
                 "resourcePath": "fonts\\fnt_Bulky_Pixel\\fnt_Bulky_Pixel.yy",
                 "resourceType": "GMFont"
+            }
+        },
+        {
+            "Key": "da1d5c01-80af-4e0a-ba5c-1b0a86ca33cd",
+            "Value": {
+                "id": "7ef10f1e-c752-4fac-b90c-ca9583f4287e",
+                "resourcePath": "sprites\\spr_City_Mask\\spr_City_Mask.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

@@ -1,3 +1,5 @@
+event_inherited();
+
 spriteIndex = sprite_index;
 subImage = 0;
 rot = point_direction(x, y, room_width/2, room_height/2);

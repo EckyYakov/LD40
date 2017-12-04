@@ -2,6 +2,9 @@
 x = room_width/2;
 y = room_height/2;
 
+//Create city collision
+instance_create_depth(x, y, 100, par_City);
+
 sections = 8;
 section_list = ds_list_create();
 

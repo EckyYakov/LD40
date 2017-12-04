@@ -1,3 +1,5 @@
+event_inherited();
+
 bulletCollision = place_meeting(x, y, obj_Projectile);
 var bullet = instance_place(x, y, obj_Projectile);
 
