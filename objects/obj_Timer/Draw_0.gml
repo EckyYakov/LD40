@@ -1,1 +1,1 @@
-draw_sprite_ext(spriteIndex, subImage, x, y, xScale, yScale, rot, color, alpha);
+draw_sprite_ext(spriteIndex, subImage, draw_x, draw_y, xScale, yScale, rot, color, alpha);

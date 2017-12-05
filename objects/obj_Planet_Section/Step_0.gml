@@ -5,6 +5,13 @@ x = con_Planet_Section.x;
 y = con_Planet_Section.y;
 
 if(mouseCollision){
+	if(!soundPlayed){
+		var idle_sound = audio_play_sound(snd_Menu_Scroll, 1, false);
+		audio_sound_set_track_position(idle_sound, .6);
+		audio_sound_gain(idle_sound, 0, 0);
+		audio_sound_gain(idle_sound, 1, 150);
+		soundPlayed = true;
+	}
 	buttonPressed = mouse_check_button_pressed(mb_left);
 	switch status {
 		case 0:
@@ -23,6 +30,10 @@ if(mouseCollision){
 	if(buttonPressed){
 		switch status {
 		case 0:
+			var idle_sound = audio_play_sound(snd_Menu_Click, 1, false);
+			audio_sound_set_track_position(idle_sound, 1.0);
+			audio_sound_gain(idle_sound, 0, 0);
+			audio_sound_gain(idle_sound, 1, 150);
 			status = 1;
 			build = true;
 			exit;
@@ -46,6 +57,7 @@ if(mouseCollision){
 	}
 }
 else {
+	soundPlayed = false;
 	switch status {
 		case 0:
 			alpha = 0;
@@ -64,6 +76,8 @@ else {
 
 if(build){
 	timer = instance_create_depth(x + lengthdir_x(dist_to_base, rot + 67.5), y + lengthdir_y(dist_to_base, rot + 67.5), -2, obj_Timer);
+	timer.draw_x = x + lengthdir_x(dist_to_base + 15, rot + 67.5);
+	timer.draw_y = y + lengthdir_y(dist_to_base + 15, rot + 67.5)
 	timer.parent_section = self;
 	timer.base_rot = rot;
 	build = false;

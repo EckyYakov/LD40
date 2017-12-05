@@ -79,6 +79,14 @@
             }
         },
         {
+            "Key": "091e38e3-c62f-44a1-a744-d3340d0d9a6c",
+            "Value": {
+                "id": "830d9c82-03db-449b-af0a-35426221935b",
+                "resourcePath": "sounds\\sfx_Duh\\sfx_Duh.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "0d747ec0-472b-4554-9b0c-17f541bf1492",
             "Value": {
                 "id": "835e6927-423e-4196-b171-2cb32e672a72",
@@ -396,6 +404,14 @@
                 "id": "3c4303d9-5b27-4a5f-bab3-0df21490e297",
                 "resourcePath": "objects\\obj_Timer\\obj_Timer.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "8116c789-f94a-43e0-b893-cc18c0df0e70",
+            "Value": {
+                "id": "fe5106de-ed9a-4d37-8082-317ab6455ea9",
+                "resourcePath": "sounds\\sfx_Scream\\sfx_Scream.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -743,6 +759,14 @@
             }
         },
         {
+            "Key": "dccd88c8-dc81-45de-89ce-443cb1739939",
+            "Value": {
+                "id": "67a48462-eb53-45cf-b24d-c0787a8aeb73",
+                "resourcePath": "sounds\\snd_Menu_Click\\snd_Menu_Click.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "dd134817-dee7-4cbe-bc25-edb89ccfe84d",
             "Value": {
                 "id": "cff4abe8-ef80-4de2-9790-9e7a761ba8b4",
@@ -772,6 +796,14 @@
                 "id": "b456264f-86b5-439b-af8b-9e4d3df946a5",
                 "resourcePath": "options\\android\\options_android.yy",
                 "resourceType": "GMAndroidOptions"
+            }
+        },
+        {
+            "Key": "e72e8bdc-e862-468b-9519-11158ef1b636",
+            "Value": {
+                "id": "f65ac405-2f47-40c5-9b13-4687645b7a57",
+                "resourcePath": "sounds\\snd_GameOver\\snd_GameOver.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -812,6 +844,14 @@
                 "id": "aa23cead-48f2-4e0a-aaa3-3cdee22b5255",
                 "resourcePath": "views\\f10d2f1c-9fca-463e-92ae-53125096f1c3.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "f2b62a37-b7b7-4b42-b992-3d612f76dbcd",
+            "Value": {
+                "id": "b76cb0d8-e7ed-4eab-8943-655913463400",
+                "resourcePath": "sounds\\snd_Menu_Scroll\\snd_Menu_Scroll.yy",
+                "resourceType": "GMSound"
             }
         },
         {

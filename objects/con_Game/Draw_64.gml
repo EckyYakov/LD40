@@ -40,9 +40,14 @@ for(var i = 0; i < stacks; i++){
 		stack4_y -= 2;
 	}
 	else {
-		
 		if stacks > 4 draw_sprite(spr_cash, 0, (room_width/2) - 82, 60 + stack5_y);
-		else draw_sprite_ext(spr_cash, 0, (room_width/2) - 82, 60 + stack5_y, 1, 1, 0, c_red, 1);
+		else {
+			if(timer % 5 == 0) var col = c_white;
+			else{
+				col = c_red;
+			}
+			draw_sprite_ext(spr_cash, 0, (room_width/2) - 82, 60 + stack5_y, 1, 1, 0, col, 1);
+		}
 		stack5_y -= 2;
 	}
 }

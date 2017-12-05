@@ -31,6 +31,10 @@ if(city_destroy){
 //Check the last base to see if it is destroyed
 if(base4.destroyed){
 	cause_of_death = "You failed to protect your cities!"
+	if(instance_exists(con_Music)){
+		con_Music.song_to_play = msc_Spacery;
+		con_Music.play_song = true;
+	}
 	resource = 0;
 }
 
@@ -55,11 +59,25 @@ if(resource <= 0) {
 		mouse_pressed = mouse_check_button_pressed(mb_any);
 		
 		if(key_pressed || mouse_pressed){
+			if(instance_exists(con_Music)){
+				con_Music.song_to_play = msc_tfx_main;
+				con_Music.play_song = true;
+			}
 			room_restart();
 		}
 	}
 }
 else{
+	//Audio queue for stacks
+	if(stacks < 4){
+		if(round(timer % room_speed) == 0){
+			var idle_sound = audio_play_sound(sfx_Duh, 1, false);
+			audio_sound_set_track_position(idle_sound, .03);
+			audio_sound_gain(idle_sound, 0, 0);
+			audio_sound_gain(idle_sound, 1, 150);
+		}
+	}
+	
 	//Passively award score based on difficulty level
 	scr += score_rate * difficulty;
 	
@@ -80,3 +98,6 @@ if(rDrawWidth != red_spriteWidth) rDrawWidth += sign(red_spriteWidth - rDrawWidt
 //Resrouce bar
 bar_ratio= resource/max_resource;
 stacks = floor(resource/1000);
+
+
+

@@ -12,3 +12,6 @@ build_time = room_speed * 2;
 build_sections = 9;
 
 parent_section = noone;
+
+draw_x = 0;
+draw_y = 0;

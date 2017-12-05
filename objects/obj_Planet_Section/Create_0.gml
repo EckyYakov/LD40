@@ -26,4 +26,6 @@ defense_range = 120;
 base_inst = noone;
 dist_to_base = 145;
 
+soundPlayed = false;
+
 depth = -3;

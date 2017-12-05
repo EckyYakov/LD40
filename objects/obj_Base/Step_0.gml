@@ -32,6 +32,10 @@ if(!destroyed){
 	var enemy = instance_place(x, y, par_Enemy);
 	if(enemyCollision){
 		//Do an animation taking out the city.
+		idle_sound = audio_play_sound(sfx_Scream, 1, false);
+		audio_sound_set_track_position(idle_sound, 1.3);
+		audio_sound_gain(idle_sound, 0, 0);
+		audio_sound_gain(idle_sound, 1, 150);
 		con_Planet_Section.shake = true;
 		con_Game.city_destroy = true;
 		enemy.city_hit = true;
