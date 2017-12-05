@@ -13,6 +13,7 @@ for(var i = 0; i < sections; i++){
 	ds_list_add(section_list, sect);
 	sect.rot = i * (360/sections);
 	sect.image_angle = sect.rot;
+	sect.subImage = sections - i;
 }
 
 xOrig = x;

@@ -16,3 +16,5 @@ xScale = 1;
 yScale = 1;
 alpha = 1;
 color = make_color_rgb(irandom_range(0, 255), irandom_range(0, 255), irandom_range(0, 255));
+
+depth = -4;

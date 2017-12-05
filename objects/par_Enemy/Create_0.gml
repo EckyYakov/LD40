@@ -10,6 +10,8 @@ shadow_radius = 0;
 max_distance = shadow_distance;
 max_radius = 12;
 
+base_to_hit = noone;
+
 depth = -3;
 
 //Effect1

@@ -1,6 +1,6 @@
 build_timer++;
 // To show the section is actively being built.
-if(build_timer % (build_time/build_sections) == 0){
+if(build_timer % round((build_time/build_sections)) == 0){
 	subImage++
 }
 if(alpha < 1){

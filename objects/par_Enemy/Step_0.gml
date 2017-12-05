@@ -1,4 +1,6 @@
 if(shrink){
+	motion_set(point_direction(x, y, base_to_hit.x, base_to_hit.y), spd)
+	mask_index = spr_Enemy;
 	xScale -= shrink_rate;
 	yScale -= shrink_rate;
 }

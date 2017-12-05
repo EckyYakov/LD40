@@ -7,13 +7,12 @@
     "inheritCreationOrder": false,
     "inheritLayers": false,
     "instanceCreationOrderIDs": [
+        "38f69b9c-9437-4c9f-b861-f379819e7c32",
         "516c599e-0672-4468-af4d-d463f4bbb3c6",
         "e6a84522-2535-4306-8296-1ddd46868706",
         "206039d4-c5cb-4004-9ead-f568e9219be0",
         "5ebee848-a993-41b4-8bd7-ff0fb049e311",
-        "35a3f6f1-0801-4d55-97d8-d07056efc795",
-        "38f69b9c-9437-4c9f-b861-f379819e7c32",
-        "09788a92-1e6c-40e3-aeaa-6941df7cbb78"
+        "35a3f6f1-0801-4d55-97d8-d07056efc795"
     ],
     "IsDnD": false,
     "layers": [
@@ -49,9 +48,14 @@
             "visible": true
         },
         {
-            "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
-            "name": "Background_Assets",
-            "id": "b4ff363e-d6d2-4fe7-a7bc-bbe2619df78d",
+            "__type": "GMRAssetLayer_Model:#YoYoStudio.MVCFormat",
+            "name": "Assets_1",
+            "id": "65412439-1029-4a27-a2a6-6bafc87a2176",
+            "assets": [
+                {"__type": "GMRSpriteGraphic_Model:#YoYoStudio.MVCFormat","name": "graphic_4A3CEEE9","id": "4b953027-f33d-4487-b263-6560d50b38be","animationFPS": 15,"animationSpeedType": "0","colour": { "Value": 4294967295 },"frameIndex": 0,"ignore": false,"inheritItemSettings": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRSpriteGraphic","rotation": 0,"scaleX": 0.34375,"scaleY": 0.34375,"mvc": "1.0","spriteId": "8e5fe9ea-5459-4470-8f3d-49c184b6911f","userdefined_animFPS": false,"x": 544,"y": 160},
+                {"__type": "GMRSpriteGraphic_Model:#YoYoStudio.MVCFormat","name": "graphic_333DFA96","id": "9ec54e74-1dd3-4305-a35d-8012867f2794","animationFPS": 15,"animationSpeedType": "0","colour": { "Value": 4294967295 },"frameIndex": 0,"ignore": false,"inheritItemSettings": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRSpriteGraphic","rotation": 0,"scaleX": 0.25,"scaleY": 0.25,"mvc": "1.0","spriteId": "b1cf7119-9df3-4df2-a679-91e1904912af","userdefined_animFPS": false,"x": 495,"y": 152},
+                {"__type": "GMRSpriteGraphic_Model:#YoYoStudio.MVCFormat","name": "graphic_14086E12","id": "280fd36a-58fa-4ef6-8b50-2b30707f9a7d","animationFPS": 15,"animationSpeedType": "0","colour": { "Value": 4294967295 },"frameIndex": 0,"ignore": false,"inheritItemSettings": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRSpriteGraphic","rotation": -55.01529,"scaleX": 0.46875,"scaleY": 0.5,"mvc": "1.0","spriteId": "20e6df4a-4c07-4fff-a619-cbc82241c990","userdefined_animFPS": false,"x": 1384,"y": 809}
+            ],
             "depth": 100,
             "grid_x": 32,
             "grid_y": 32,
@@ -61,15 +65,12 @@
             "inheritLayerSettings": false,
             "inheritSubLayers": false,
             "inheritVisibility": false,
-            "instances": [
-                {"name": "inst_13964926","id": "09788a92-1e6c-40e3-aeaa-6941df7cbb78","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_13964926","objId": "3eaae00e-69d0-4e9a-bf57-e87317f33c50","rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 160,"y": 0}
-            ],
             "layers": [
 
             ],
             "m_parentID": "00000000-0000-0000-0000-000000000000",
             "m_serialiseFrozen": false,
-            "modelName": "GMRInstanceLayer",
+            "modelName": "GMRAssetLayer",
             "mvc": "1.0",
             "userdefined_depth": false,
             "visible": true

@@ -22,17 +22,25 @@ cities_remaining = 4;
 city_distance = 35
 city_destroy = false;
 
-cause_of_death = "You ran out of resources to sustain your World!";
+cause_of_death = "You ran out of money to sustain your World!";
 
 //Create the four bases
-base1 = instance_create_depth(room_width/2 + city_distance, room_height/2 -city_distance, -1, obj_Base);
+base1 = instance_create_depth(room_width/2, room_height/2 - city_distance, -1, obj_Base);
 base1.ui_time = room_speed;
-base2 = instance_create_depth(room_width/2 + city_distance, room_height/2 + city_distance, -1, obj_Base);
+base1.pr_min_ang = 25;
+base1.pr_max_ang = 155;
+base2 = instance_create_depth(room_width/2 + city_distance, room_height/2, -1, obj_Base);
 base2.ui_time = room_speed * 2;
-base3 = instance_create_depth(room_width/2 - city_distance, room_height/2 + city_distance, -1, obj_Base);
+base2.pr_min_ang = -65;
+base2.pr_max_ang = 65;
+base3 = instance_create_depth(room_width/2, room_height/2 + city_distance, -1, obj_Base);
 base3.ui_time = room_speed * 3;
-base4 = instance_create_depth(room_width/2 - city_distance, room_height/2 - city_distance, -1, obj_Base);
+base3.pr_min_ang = 205;
+base3.pr_max_ang = 335;
+base4 = instance_create_depth(room_width/2 - city_distance, room_height/2, -1, obj_Base);
 base4.ui_time = room_speed * 4;
+base4.pr_min_ang = 115;
+base4.pr_max_ang = 245;
 
 delayed = false;
 scrn = noone;

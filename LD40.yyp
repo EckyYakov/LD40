@@ -119,6 +119,14 @@
             }
         },
         {
+            "Key": "1aca59d6-6faf-4d12-8568-f9888e31ca19",
+            "Value": {
+                "id": "45e7d0e8-aced-4140-a20b-93648aaca060",
+                "resourcePath": "sprites\\spr_Missle_Bases\\spr_Missle_Bases.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "1eed2bf3-21d0-4f32-ad3d-9891a1147e3a",
             "Value": {
                 "id": "f47084e7-137a-4976-a4b0-85a8c0b77c07",
@@ -164,6 +172,14 @@
                 "id": "41721b74-f83a-427f-8b60-acf0ba5b10b1",
                 "resourcePath": "views\\27a6e1da-6f45-4a91-a3e3-a8a7d6219ce7.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "2bf34b88-de89-4001-b0c2-3817181e21ab",
+            "Value": {
+                "id": "f874abb5-7050-4c4b-9059-eded4efff03c",
+                "resourcePath": "sprites\\spr_Missle_Base\\spr_Missle_Base.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -628,6 +644,14 @@
                 "id": "9c8571be-293a-4ea9-94cd-ba855e73fcda",
                 "resourcePath": "sprites\\spr_Cloud\\spr_Cloud.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "ca283a00-8fbd-42bc-be54-82680538d9d1",
+            "Value": {
+                "id": "edf4b5ac-f4d1-42f8-aa1e-c6413c3de716",
+                "resourcePath": "sounds\\msc_Spacery\\msc_Spacery.yy",
+                "resourceType": "GMSound"
             }
         },
         {

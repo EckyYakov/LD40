@@ -18,3 +18,36 @@ if(shake){
 		shake_reset = false;
 	}
 }
+
+switch con_Game.cities_remaining {
+	case 4:
+		city1_subImage = 0;
+		city2_subImage = 0;
+		city3_subImage = 0;
+		city4_subImage = 0;
+	break;
+	case 3:
+		city1_subImage = 1;
+		city2_subImage = 0;
+		city3_subImage = 0;
+		city4_subImage = 0;
+	break;
+	case 2:
+		city1_subImage = 1;
+		city2_subImage = 1;
+		city3_subImage = 0;
+		city4_subImage = 0;
+	break;
+	case 1:
+		city1_subImage = 1;
+		city2_subImage = 1;
+		city3_subImage = 1;
+		city4_subImage = 0;
+	break;
+	case 0:
+		city1_subImage = 1;
+		city2_subImage = 1;
+		city3_subImage = 1;
+		city4_subImage = 1;
+	break;
+}

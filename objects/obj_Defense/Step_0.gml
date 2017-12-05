@@ -20,6 +20,8 @@ if(mouse_angle >= min(clamp360(angle1),clamp360(angle2))  && mouse_angle <= max(
 		audio_sound_set_track_position(proj_sound, .35);
 		audio_sound_gain(proj_sound, 0, 0);
 		audio_sound_gain(proj_sound, 1, 150);
+		subImage = 1;
+		alarm[0] = 10;
 	}
 }
 else{
